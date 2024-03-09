@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio</title>
+    <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style-custom.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 0.5em;
+        margin-bottom: 1em;
+        border: 1px solid #ccc;
+        border-radius: 0.25em;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        background-color: #13b0f5;
+        color: white;
+        padding: 0.5em 1em;
+        border: none;
+        border-radius: 0.25em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #7864d1;
+      }
+
+      .blog-post {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+        transition: box-shadow 0.3s ease; 
+      }
+
+      .blog-post:hover {
+         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="color: #42446e"
+          >Siftiyan A<span class="dot">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-brand ms-lg-3">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- HOME -->
+    <section id="home" class="py-5">
+      <div class="container mt-5" data-aos="zoom-out">
+        <div class="row justify-content-lg-evenly">
+          <div class="col-lg-7 mb-3 mt-5">
+            <div class="row">
+              <div class="col-12 offset-lg-1 text-black">
+                <h1 class="display-4" style="color: #42446e">
+                  Hai👋,<br />My name is<br /><span class="gradient-text typing-animation">Siftiyan Abdullah Zidan Arzaqi</span><br />Front End Developer
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/siftiyan.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-5">
+      <div class="container" data-aos="fade-down" style="padding-top: 0;">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 style="color: #42446e">About</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-8">
+            <div class="team-member">
+              <div class="image">
+                <img src="img/kesultanan.jpg" alt="" />
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/siftiyan.arzaqi?mibextid=ZbWKwL"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/siftiyan__"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="https://www.linkedin.com/in/siftiyanabdullah/"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+                <div class="overlay"></div>
+              </div>
+
+              <h5 style="color: #42446e">Siftiyan Abdullah Zidan Arzaqi</h5>
+              <p style="color: #42446e">Surabaya, Jawa Timur</p>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6 col-md-8">
+            <div class="pt-lg-4">
+              <h3 style="color: #42446e">I am Siftiyan Abdullah</h3>
+              <p class="mx-auto" style="color: #42446e">
+                I born in Blitar on September 17, 2002. I am 21 years old. Now I'm
+                studying at the State University of Surabaya majoring in Sistem
+                Informasi. My habit is facing the computer to write several
+                programs. I like to learn new things about the computer world.
+                Not only computers, I am also interested in science and
+                knowledge in this world.
+              </p>
+              <p class="mx-auto" style="color: #42446e"></p>
+                As a 5th semester student in the Department of Informatics, I focus on the 
+                Information Systems study program with expertise as a front-end developer 
+                and system analyst. I am not only committed to academics, but also active 
+                in 5 campus organizations that have successfully run dozens of work 
+                programs. In addition, my achievements in the field of scientific papers 
+                in IT have been recorded with 48 awards, and I continue to work to improve 
+                the achievement target. My dedication to a deep understanding of information 
+                technology and active involvement in organizational activities create 
+                a strong foundation for my positive contributions in the academic and 
+                professional worlds
+              </p>
+              <h3 style="color: #42446e">Organizations</h3>
+              <ul>
+                <li style="color: #42446e">
+                  Head of the Class of 2021 Majoring In Informatics Engineering (2023 - Present)
+                </li>
+                <li style="color: #42446e">
+                  Chairman Of The Unesa Blitar Student Forum (2023 - Present)
+                </li>
+                <li style="color: #42446e">
+                  Staff Of Generasi Baru Indonesia (GenBI) (2023 - Present)
+                </li>
+                <li style="color: #42446e">
+                  Staff Of Badan Eksekutif Mahasiswa Unesa (BEM U) (2023 - Present)
+                </li>
+                <li style="color: #42446e">
+                  Staff of UKMPC Human Resources Development Department (2022 - 2023)
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools" class="text-center" class="py-5">
+      <div class="container" data-aos="fade-up" style="padding-top: 0;">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 style="color: #42446e">Tools</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Visual Studio Code</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Figma</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Cap Cut</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Lightroom</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Canva Pro</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Microsoft Office</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Google Collab</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Git Hub</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Sketchup 3D</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="py-5">
+      <div class="container" data-aos="fade-up" style="padding-top: 0;">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 style="color: #42446e">Works</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/sindik.png" alt="" />
+
+              <div class="content">
+                <h5 class="mt-0 pt-0" style="color: #42446e">Sistem Informasi Pendidikan</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Mobile Development
+                  </p>
+                  <p class="col-4 tag">Flutter</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/treefish.png" alt="" />
+              <div class="content">
+                <h5 class="mt-0 pt-0" style="color: #42446e">Treefish</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Mobile Development
+                  </p>
+                  <p class="col-4 tag" style="margin-right: 5px">Flutter</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/chobaci3.png" alt="" />
+              <div class="content">
+                <h5 class="mt-0 pt-0" style="color: #42446e">Chobaci</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Web Development
+                  </p>
+                  <p class="col-4 tag">Odoo Program</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/udanawu.png" alt="" />
+
+              <div class="content">
+                <h5 class="mt-0 pt-0" style="color: #42446e">Web SPBE</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Web Development
+                  </p>
+                  <p class="col-4 tag">PHP</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/figma.png" alt="" />
+
+              <div class="content">
+                <h5 class="mt-0 pt-0" style="color: #42446e">Figma Design</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Mobile Development
+                  </p>
+                  <p class="col-4 tag">Figma</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/sertifikat.png" alt="" />
+
+              <div class="content">
+                <h5 class="mt-0 pt-0" style="color: #42446e">
+                  Sertifikat Nasional
+                </h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Kejuaraan Nasional
+                  </p>
+                  <p class="col-4 tag">Analys Teknologi</p>
+                </div>
+              </div>
+            </article>
+        </div>
+      </div>
+
+   <section id="Lisensi" class="container-fluid section-5">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-12">
+          <div class="intro">
+            <h1 style="color: #42446e">Lisensi dan Sertifikasi</h1>
+          </div>
+        </div>
+      </div>
+    <div class="row mt-4 mt-md-5 work-gallery-row">
+        <div class="masonry">
+            <div class="grid">
+                <img src="img/alibaba.jpg" class="img-fluid image-work">
+                <div class="grid__body">
+                    <div class="relative">
+                        <a class="grid__link" target="_blank" href="#"></a>
+                        <p class="grid__author">BY Siftiyan Abdullah</p>
+                    </div>
+                    <div class="mt-auto">
+                        <span class="grid__tag">Alibaba Cloud</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <img src="img/codepolitan.jpg" class="img-fluid image-work">
+                <div class="grid__body">
+                    <div class="relative">
+                        <a class="grid__link" target="_blank" href="#"></a>
+                        <p class="grid__author">BY Siftiyan Abdullah</p>
+                    </div>
+                    <div class="mt-auto">
+                        <span class="grid__tag">Codepolitan</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <img src="img/ruangguru.jpg" class="img-fluid image-work">
+                <div class="grid__body">
+                    <div class="relative">
+                        <a class="grid__link" target="_blank" href="#"></a>
+                        <p class="grid__author">BY Siftiyan Abdullah</p>
+                    </div>
+                    <div class="mt-auto">
+                        <span class="grid__tag">Ruangguru</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <img src="img/ruangguru1.jpg" class="img-fluid image-work">
+                <div class="grid__body">
+                    <div class="relative">
+                        <a class="grid__link" target="_blank" href="#"></a>
+                        <p class="grid__author">BY Siftiyan Abdullah</p>
+                    </div>
+                    <div class="mt-auto">
+                        <span class="grid__tag">Ruangguru</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <section id="contact" class="py-5">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 style="color: #42446e">Contact</h1>
+            </div>
+          </div>
+        </div>
+
+        <form action="https://formspree.io/f/xleqllrd" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br />
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h4 class="navbar-brand">Siftiyan Abdullah Zidan Arzaqi</h4>
+              <p style="color:#42446E;">As a 6th semester student at Surabaya State University, I focus on the Information Systems 
+                study program with expertise as a front-end developer and system analyst. My dedication to a deep 
+                understanding of information technology and active involvement in organizational activities create a strong foundation 
+                for my positive contributions in the academic and professional.
+              </p>
+              <div class="col-auto social-icons">
+                <a href="https://www.facebook.com/siftiyan.arzaqi?mibextid=ZbWKwL"
+                  ><i class="bx bxl-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/siftiyan__/"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/siftiyanabdullah/"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Universitasa Negeri Surabaya</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
